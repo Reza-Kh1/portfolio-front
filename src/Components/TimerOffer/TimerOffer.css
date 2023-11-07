@@ -1,0 +1,37 @@
+.body-dark .timer-countdown span {
+    background-color: rgb(178, 215, 210);
+}
+
+.body-light .timer-countdown span {
+    background-color: rgb(201, 207, 251);
+}
+
+.timer-countdown span {
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: black;
+}
+
+.timer-countdown i {
+    margin-right: 0.3rem;
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+
+.timer-countdown {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    /* background: #de3049; */
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 777px) {
+    .timer-countdown span {
+        font-size: 14px;
+    }
+    .warning-problems-notif .text-warning {
+        width: auto;
+    }
+}

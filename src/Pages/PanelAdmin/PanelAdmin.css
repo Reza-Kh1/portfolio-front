@@ -1,0 +1,379 @@
+
+.profile-admin {
+    margin-top: 1rem;
+    padding: 8px 15px;
+    background: #3b3b3c;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.profile-admin span {
+    color: #c37e40;
+}
+
+.profile-admin .img-admin img {
+    height: 5rem;
+    background-position: center;
+    object-fit: contain;
+    padding: 3px;
+    margin: pad;
+    box-shadow: 0px 0px 7px 0px #9fa1bf;
+    outline: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.search-admin {
+    padding: 0.5rem 0.8rem;
+    width: 0;
+    opacity: 0;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 6px 0px #94cae5;
+    outline: 0;
+    color: #bcbcbc;
+    transition: all ease-in-out 0.3s;
+    margin-left: 10px;
+    background: #2c2c2c;
+}
+
+.button-admin {
+    background: #cccccc;
+    border: 0;
+    border-radius: 30%;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 8px 12px;
+}
+
+.button-admin:hover {
+    box-shadow: 0px 0px 8px 0px #111112;
+}
+
+.clik-search {
+    width: 50%;
+    opacity: 1;
+}
+
+/* بخش چنل ادمین */
+.notif-admin {
+    cursor: pointer;
+    color: #a16d3f;
+    position: relative;
+}
+
+.notif-admin:hover {
+    color: #4d7cf4;
+}
+
+.have-notif-admin {
+    position: absolute;
+    color: #c20000 !important;
+    top: -5px;
+    right: -4px;
+}
+
+
+.bell-admin {
+    color: #c37e40;
+    position: relative;
+}
+
+
+.bell-hover-admin {
+    opacity: 0;
+    position: absolute;
+    right: -10px;
+    display: flex;
+    flex-direction: column;
+    top: 3rem;
+    color: aquamarine;
+    border: 1px solid #8e771a;
+    background-color: #2c2e2f;
+    width: 60rem;
+    box-shadow: -1px 2px 7px #905918;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    z-index: -1;
+}
+.bell-show{
+    opacity: 1;
+    z-index: 1;
+}
+.bell-hover-admin::after {
+    content: '';
+    top: -20px;
+    right: 9px;
+    position: absolute;
+    border-bottom: 10px solid #8e771a;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.bell-hover-admin tr td:not(.massage-admin) {
+    font-size: 1rem;
+}
+
+.massage-click {
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    padding: 4px 15px;
+    background-color: #3a3a3a;
+    box-shadow: 0px 0px 5px 0px #211d1d;
+}
+
+.massage-click:hover {
+    background-color: #23211f;
+    color: #4c82b6;
+    box-shadow: 0px 0px 5px #1d6eb4;
+}
+
+
+.compelete-massage {
+    text-decoration: line-through;
+}
+
+.close-notif {
+    margin: 15px auto 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0px 0px 5px 0px #211d1d;
+    background: #3a3a3a;
+    border-radius: 10px;
+    padding: 3px 0;
+}
+
+.close-notif:hover {
+    background-color: #23211f;
+    color: #4c82b6;
+    box-shadow: 0px 0px 5px #1d6eb4;
+}
+
+/* dashboard */
+.rechartBg {
+    background: #232323;
+    padding: 10px 8px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* product */
+.accordion-item button {
+    background: rgb(59 59 60);
+    color: aliceblue;
+}
+
+.uploader {
+    border: none;
+    height: 1.8rem;
+    color: #0876d6;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 6px 1px #1676c9 !important;
+}
+
+.textareass {
+    background: #2e2f30;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 0px #1676c9 !important;
+    color: #1d97c0;
+}
+.accordion-button::after {
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-product .accordion-item button {
+    background: #2e2f30;;
+    color: aliceblue;
+}
+
+.accordion-product .accordion-body {
+    background-color: #212529;
+}
+
+
+/* setting */
+
+.uploader {
+    border: none;
+    height: 1.8rem;
+    color: #0876d6;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 6px 1px #1676c9 !important;
+}
+
+.change-pass {
+    position: absolute;
+    left: 1%;
+    background-color: #2e2f30;
+    cursor: pointer;
+    font-size: 20px;
+    bottom: -14%;
+    padding: 0px 5px;
+}
+
+
+/* success-notif */
+.success-notif {
+    position: fixed;
+    width: 15%;
+    top: 5%;
+    left: -16%;
+    padding: 15px 10px;
+    box-shadow: 0px 3px 6px #167bd2;
+    border-radius: 1rem;
+    background: #202322;
+    transition: all ease-in 0.3s;
+}
+.success-show{
+    left: 1%;
+}
+
+/* user */
+.input-text{
+    margin-bottom: 0.8rem;
+    padding: 8px 5px !important;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #1676c9 !important;
+    background-color: #2e2f30 !important;
+    color: #0dcaf0 !important;
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.button{
+    padding: 5px 20px;
+    color: #11a3c0;
+    box-shadow: 0px 0px 4px 1px #000000;
+    background: #23211f;
+    border: none;
+    border-radius: 0.4rem;  
+}
+.button:hover{
+   box-shadow: 0px 0px 4px 1px #1b6cb2;
+
+}
+
+.select-user{
+    padding: 3px 25px;
+    box-shadow: 0px 0px 4px 1px #000000;
+    background: #23211f;
+    color: #1d97c0;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+/* user-table */
+.new-user,
+.new-product {
+    background-color: #232323;
+    padding: 10px 15px;
+}
+
+.edit-btn {
+    padding: 3px 10px;
+    background: #3b90c9;
+    border: none;
+    border-radius: 0.8rem;
+    margin-left: 0.5rem;
+    box-shadow: 0px 0px 5px #090806;
+}
+
+.edit-btn:hover {
+    box-shadow: 0px 2px 8px #1a69d9;
+}
+
+.edit-box {
+    position: fixed;
+    display: flex;
+    top: 35%;
+    width: 25%;
+    left: 34%;
+    box-shadow: 0px 3px 6px #167bd2;
+    border-radius: 1rem;
+    background: #202322;
+    flex-direction: column;
+    z-index: -1;
+    padding: 10px 15px;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.close-edit {
+    opacity: 1;
+    z-index: 1;
+}
+
+.edit-box input {
+    margin-bottom: 0.8rem;
+    padding: 8px 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #1676c9;
+    background-color: #323c3c;
+    color: #0dcaf0;
+    border-radius: 0.3rem;
+}
+
+.button-edit {
+    display: flex;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+}
+
+.button-edit button {
+    padding: 5px 40px;
+    color: #11a3c0;
+    box-shadow: 0px 0px 4px 1px #000000;
+    background: #23211f;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.button-edit button:hover {
+    box-shadow: 0px 0px 4px 1px #1b6cb2;
+}
+
+.delete-modal {
+    padding: 2rem 3rem;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    right: 28%;
+    left: 28%;
+    box-shadow: 0px 1px 8px 1px #167bd2;
+    border-radius: 1rem;
+    background: #202322;
+    opacity: 0;
+    z-index: -1;
+    transition: all ease-in 0.2s;
+}
+
+.show-delete {
+    opacity: 1;
+    z-index: 1;
+}
+
+.success-notif {
+    padding: 8px 12px;
+    position: fixed;
+    top: 5%;
+    border-radius: 0.5rem;
+    left: -16%;
+    box-shadow: 0px 0px 3px 0px #0d56ed;
+    width: auto;
+    background-color: #23211f;
+    transition: all ease-in 0.3s;
+}
+
+.success-show {
+    left: 1%;
+}

@@ -1,0 +1,28 @@
+.select-tickets {
+    padding: 3px 25px;
+    box-shadow: 0px 0px 4px 1px #000000;
+    background: #23211f;
+    color: #1d97c0;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.tickets td {
+    color: #d2d2d2 !important;
+    background-color: #b2eded00 !important;
+    padding: 1.5rem 0 !important;
+}
+
+.tickets th {
+    color: #26a9dd !important;
+    background-color: #b2eded00 !important;
+    padding-bottom: 2rem !important;
+}
+
+.tickets tbody tr td:first-child {
+    text-align: inherit;
+}
+.tickets tbody tr td:last-child,.tickets thead tr th:last-child {
+    text-align: left;
+}

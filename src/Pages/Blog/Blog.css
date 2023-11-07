@@ -1,0 +1,203 @@
+.home-page {
+    background-image: url('/img/home-blog.jpg');
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: top;
+}
+
+.home-page-title {
+    position: absolute;
+    left: 19%;
+    top: 50%;
+}
+
+.desc-wiiner {
+    outline: 1px solid #535353;
+    padding: 1rem;
+    height: auto;
+    width: 15rem;
+    position: absolute;
+    bottom: -12%;
+    right: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-wiiner button {
+    border: none;
+    color: #373a3c;
+    padding: 0.3rem;
+    background: #c79b7a;
+    border-radius: 0.3rem;
+    outline: 1px solid #7c5946;
+}
+
+.img-blog {
+    display: table;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+.count-span {
+    color: #c79b7a !important;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.bg-green {
+    background-image: url('/img/home_architect4_pic4.jpg');
+
+}
+
+.tage-a-img {
+    overflow: hidden;
+    display: block;
+}
+.tage-a-img figcaption{
+    visibility: hidden;
+}
+.tage-a-img figure {
+    transition: all ease-in-out 0.3s;
+    position: relative;
+}
+
+.tage-a-img figure::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.tage-a-img:hover figure::after {
+    background-color: #14141576;
+}
+
+.tage-a-img:hover figure {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.3s;
+}
+
+.tag-a-button {
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    background-color: #e0e0e0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    color: #171819 !important;
+}
+
+.tag-a-button:hover {
+    background-color: #adb9b8;
+
+}
+
+.tage-a-img:hover figcaption {
+    top: 40%;
+    opacity: 1;
+    transition: all ease-in 0.3s;
+    visibility: visible;
+
+}
+
+.tage-a-img figcaption {
+        transition: all ease-in 0.3s;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        left: 10%;
+        right: 10%;
+        top:30%;
+}
+
+.tage-a-img figcaption span {
+    color: #ddd;
+    font-size: 1.5rem;
+}
+
+.title-desc {
+    position: absolute;
+    bottom: -10%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all ease-in 0.3s;
+    visibility: hidden;
+}
+
+.tage-a-img:hover .title-desc {
+    bottom: 0;
+    opacity: 1;
+    transition: all ease-in 0.3s;
+    visibility: visible;
+
+}
+
+.title-desc .button-title-decs {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    background-color: #373a3c;
+    text-align: center;
+    transition: all ease-in 0.2s;
+    z-index: 7;
+}
+
+.title-desc .button-title-decs span {
+    color: #e0e0e0;
+}
+
+.title-desc .button-title-decs:hover {
+    background-color: #e2e3e3;
+    transition: all ease-in 0.2s;
+}
+
+.title-desc .button-title-decs:hover span {
+    color: #373a3c;
+}
+
+.img-3-blog {
+    text-align: center;
+}
+
+.img-3-blog img {
+    object-fit: none;
+    height: 9rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 777px) {
+    .img-blog {
+        height: 17rem;
+    }
+
+    .box-counter h5 {
+        font-size: 0.8rem;
+    }
+
+    .box-counter span {
+        font-size: 2rem;
+    }
+    .tage-a-img span,.tage-a-img figcaption span{
+        font-size: 1rem;
+    }
+    .title-desc .button-title-decs {
+        font-size: 0;
+    }
+    .home-page {
+        background-position: center right;
+    }
+    .home-page-title {
+        left: 10%;
+        right: 10%;
+        top: 29%;
+    }
+    .desc-wiiner {
+        width: 12rem;
+        right: 42%;
+    }
+}

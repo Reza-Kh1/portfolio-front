@@ -1,0 +1,68 @@
+.box-about-me figure img {
+    background: #3c3c3c52;
+    border-radius: 50%;
+    object-fit: contain;
+    height: 15rem;
+    outline: 1px solid #211f1f;
+    width: auto !important;
+}
+
+.box-desc-me p,
+.box-desc-me li {
+    line-height: 2;
+}
+
+.box-desc-me {
+    box-shadow: 0px 0px 6px #999292;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.panel-about-me {
+    border: 1px solid #ddd;
+    background: #92929252;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.box-about-me figure {
+    position: relative;
+}
+
+.box-about-me h5 {
+    color: #7090b7;
+}
+
+.box-about-me figure::after {
+    position: absolute;
+    content: "";
+    width: 200%;
+    height: 2px;
+    background-color: #3a3838;
+    bottom: 50%;
+}
+
+.box-desc-me ul li {
+    position: relative;
+}
+
+.box-desc-me ul li::after {
+    position: absolute;
+    content: "";
+    border-radius: 0.5rem;
+    width: 5px;
+    height: 10px;
+    background: linear-gradient(45deg, #eb44ff, #7685c1);
+    right: -3%;
+    top: 31%;
+}
+
+@media only screen and (max-width: 777px) {
+    .box-about-me figure img {
+        height: 4rem;
+    }
+    .title-box h5{
+        margin: 0;
+        font-size: 10px;
+    }
+}

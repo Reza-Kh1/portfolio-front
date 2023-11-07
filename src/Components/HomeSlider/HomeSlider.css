@@ -1,0 +1,28 @@
+.slide-home {
+    position: relative;
+    background-position: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 6px 2px #6c6363;
+}
+
+.imggg {
+    height: 20rem;
+    border-radius: 0.5rem;
+    object-fit: contain;
+}
+
+.slide-homes figcaption {
+    position: absolute;
+    bottom: -8%;
+    background: #000000b0;
+    right: 15%;
+    padding: 0.7rem;
+    left: 15%;
+    border-radius: 0.5rem;
+}
+
+.slide-home figcaption p {
+    color: aliceblue;
+}

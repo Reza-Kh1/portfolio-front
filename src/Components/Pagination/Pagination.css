@@ -1,0 +1,16 @@
+.pagination-button button{
+    display: inline-block;
+    background: #cccccc;
+    padding: 0.8rem 1.4rem;
+    color: #171717;
+    border-radius: 50%;
+}
+.pagination-button {
+    margin-top: 2rem;
+}
+.pagination-button .page-active{
+    color: #fafbff;
+    background: rgb(76 76 76);
+}
+
+

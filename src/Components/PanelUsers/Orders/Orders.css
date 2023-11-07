@@ -1,0 +1,21 @@
+.table-user td {
+    color: #d2d2d2 !important;
+    background-color: #b2eded00 !important;
+    padding: 1.5rem 0 !important;
+}
+
+.table-user th {
+    color: #26a9dd !important;
+    background-color: #b2eded00 !important;
+    padding-bottom: 2rem !important;
+}
+
+.table-user tbody tr td:first-child {
+    text-align: inherit;
+}
+.table-user tbody tr td:last-child,.table-user thead tr th:last-child {
+    text-align: left;
+}
+.order-panel-users tbody tr td,.order-panel-users thead tr th{
+    padding: 1rem !important;
+}

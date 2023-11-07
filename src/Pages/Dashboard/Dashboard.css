@@ -1,0 +1,94 @@
+.dashboard {
+    background-color: #2f3041;
+    padding: 1rem;
+}
+
+.dashboard p,
+.dashboard div,
+.dashboard span,
+.dashboard h3 {
+    color: #ddd;
+}
+
+.head-dashboard {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.sidebar-user {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ddd;
+}
+
+.sidebar-user a {
+    color: #fafdff;
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+}
+
+.sidebar-user a i {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.sidebar-user a::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    right: -12%;
+    top: 6px;
+    opacity: 0;
+    transition: all ease 0.3s;
+    border-right: 8px solid #3fadff;
+    border-left: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.sidebar-user a.active {
+    color: #3fadff;
+    position: relative;
+
+}
+
+.sidebar-user a.active::after {
+    right: -7%;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 777px) {
+    .sidebar-user {
+        border-left: none;
+    }
+
+    .cart-user figure {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-user h4 {
+        font-size: 1rem !important;
+    }
+    .button-users{
+        display: block !important;
+        text-align: center;
+    }
+
+    .cart-user {
+        padding: 1rem 0.5rem !important;
+    }
+    .tickets .score-num{
+        display: flex !important;
+    }
+    .select-tickets {
+        padding: 3px 10px !important;
+    }
+}

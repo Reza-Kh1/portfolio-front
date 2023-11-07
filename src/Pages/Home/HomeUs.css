@@ -1,0 +1,37 @@
+.home-top-image {
+    margin-top: -14.1rem;
+    height: 90vh;
+    position: relative;
+    background-image: url("/img/home_betheme_slider_slide1.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.home-top-image figcaption {
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+}
+
+.home-top-image figcaption h3,
+.home-top-image figcaption span {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 770px) {
+    .home-top-image {
+        background-position: center center;
+    }
+
+    .home-top-image figcaption {
+        bottom: 40%;
+        right: 10%;
+        left: 10%;
+    }
+    .slide-homes figcaption {
+        right: 10% !important;
+        left: 10% !important;
+    }
+}

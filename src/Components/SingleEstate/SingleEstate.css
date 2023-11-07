@@ -1,0 +1,110 @@
+.body-dark .desc-single-estate {
+    background-color: rgb(32 34 40);
+}
+.body-dark .desc-single-estate-right {
+    box-shadow: 1px 1px 7px 1px  rgb(46,58,89);
+}
+.body-dark .shop-single {
+    background-color: rgb(32 34 40);
+}
+.body-dark .gallery-img-estate{
+    background-color: rgb(32 34 40);
+}
+
+.body-light .desc-single-estate {
+    background-color:  rgb(226,232,240);
+}
+.body-light .desc-single-estate-right {
+    box-shadow: 1px 1px 7px 1px   rgb(167,197,189);
+}
+.body-light .shop-single {
+    background-color:  rgb(226,232,240);
+}
+.body-light .gallery-img-estate{
+    background-color:  rgb(226,232,240);
+}
+.gallery-img-estate {
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.gallery-img-estate .image-gallery-thumbnail:hover {
+    border: 1px solid #6b6b6b !important;
+}
+
+.gallery-img-estate .image-gallery-thumbnail {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-left: 8px !important;
+    border-radius: 5px;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 0;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+    opacity: 0;
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+    border-radius: 7px;
+    padding: 3px 3px;
+    border: 1px solid #6b6b6b !important;
+    box-shadow: 1px 1px 5px 1px #535151;
+}
+
+.image-gallery-thumbnail:hover {
+    border-radius: 7px;
+    padding: 3px 3px;
+    border: 3px solid #6b6b6b !important;
+    box-shadow: 1px 1px 5px 1px #535151;
+}
+
+.desc-single-estate {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0px #3a393985;
+    padding: 10px 15px;
+}
+
+.desc-single-estate p {
+    line-height: 2.3 !important;
+}
+
+.desc-single-estate span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.desc-single-estate-right {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 1px #fdfdfd85;
+    padding: 10px 25px;
+}
+
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+
+.swiper-initialized {
+    padding: 5px 15px !important;
+}
+
+.shop-single .danger-shop:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.shop-single {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 4px #656363;
+    padding: 1rem 0.8rem;
+}

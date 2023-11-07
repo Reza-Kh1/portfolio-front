@@ -1,0 +1,49 @@
+.not-found {
+    height: 100vh;
+    background-image: url("/img/astro-pattern-bg.png");
+    position: relative;
+    margin-top: -14.3rem !important;
+    overflow: hidden;
+}
+
+.sec-404-page {
+    background-color: #f6f3ef !important;
+}
+
+.not-found figure .img-not-found,
+.img-not-found-cat {
+    position: absolute;
+    bottom: 25%;
+    object-fit: contain;
+    height: 35rem;
+    background-position: center;
+}
+
+.not-found figure .img-not-found-cat {
+    opacity: 0.5;
+}
+
+.bt-img {
+    position: absolute;
+    bottom: -3% !important;
+    height: 22rem;
+}
+
+.bt-img-moon {
+    height: 10rem;
+    width: auto !important;
+    object-fit: contain;
+}
+
+
+
+@media only screen and (max-width: 777px) {
+    .not-found {
+        height: 80vh;
+    }
+
+    .not-found figure .img-not-found,
+    .img-not-found-cat {
+        bottom: 5%;
+    }
+}

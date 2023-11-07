@@ -1,0 +1,99 @@
+.body-dark .off-cart-shopping {
+    background:  rgba(38,53,61,1);
+}
+.body-dark .off-notif-cart {
+    background: rgba(236,159,36,1);
+}
+.body-dark .off-cart-shopping .off-cart-img-hover ul li {
+    background-color:  rgb(58,79,94);
+}
+.body-light .off-cart-shopping {
+    background:   rgb(205, 222, 255);
+}
+.body-light .off-notif-cart {
+    background:  rgb(255, 89, 89);
+}
+.body-light .off-cart-shopping .off-cart-img-hover ul li {
+    background-color:  rgb(226,232,240);
+}
+
+.off-cart-shopping {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+.off-cart-shopping figure figcaption {
+    flex-direction: column;
+    padding:0 0.2rem ;
+}
+
+.off-cart-shopping figure figcaption p {
+    white-space: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+
+.off-cart-shopping figure figcaption span:first-child {
+    font-size: 0.8rem;
+}
+
+.off-cart-shopping img {
+    height: 11rem;
+    object-fit: contain;
+    background: #ffffff;
+}
+.body-dark .buttonss .asly{
+    background: transparent;
+}
+.off-notif-cart {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    padding: 12px 11px;
+}
+
+.off-cart-shopping .off-cart-img {
+    position: relative;
+}
+
+.off-cart-shopping .off-cart-img-hover {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 0.2s;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.off-cart-shopping .off-cart-img:hover .oi,
+.off-cart-shopping .off-cart-img:hover figcaption {
+    opacity: 0 !important;
+    transition: all ease-in-out 0.2s;
+}
+
+.off-cart-shopping .off-cart-img:hover .off-cart-img-hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-in-out 0.2s;
+}
+
+.off-cart-shopping .off-cart-img-hover ul li:hover {
+    background-color: rgb(39, 201, 225);
+    box-shadow: 0px 0px 6px 1px #e9e2e2;
+}
+
+.off-cart-shopping .off-cart-img-hover ul li {
+    padding: 5px 8px;
+    scale: 1;
+    border-radius: 5px;
+    cursor: pointer;
+}

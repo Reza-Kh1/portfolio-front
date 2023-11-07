@@ -1,0 +1,44 @@
+.body-dark .box-slider-shop {
+    background-color: rgb(32 36 48);
+    box-shadow: 0px 2px 5px rgb(178, 215, 210);
+    border: 1px solid rgb(178, 215, 210);
+}
+
+.body-light .box-slider-shop {
+    background-color:  rgb(238, 242, 255);
+    box-shadow: 0px 2px 5px rgb(167,197,189);
+    border: 1px solid rgb(167,197,189);
+}
+
+.box-slider-shop img {
+    height: 12rem;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    background-position: center center;
+}
+
+.box-slider-shop {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.desc-shop-slider h5 {
+    position: relative;
+}
+
+.desc-shop-slider h5::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    border-radius: 0.5rem;
+    height: 1rem;
+    background: linear-gradient(176deg, #39a8e1, #c732f5);
+    right: -10px;
+    top: 4px;
+}
+
+.price-single-shop {
+    text-align: center;
+    color: #9044b5;
+    font-size: 1.3rem;
+}

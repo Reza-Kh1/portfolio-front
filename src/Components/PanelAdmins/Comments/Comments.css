@@ -1,0 +1,12 @@
+.result {
+    box-shadow: 0px 0px 5px 0px #1676c9 !important;
+    background: #2e2f30;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    padding: 5px;
+    border: none;
+}
+
+.respawn-comment {
+    background: #38c73d;
+}

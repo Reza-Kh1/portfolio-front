@@ -1,0 +1,51 @@
+.body-basket {
+    padding: 1rem;
+    box-shadow: -1px 1px 4px #ddd;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.body-basket h5 {
+    white-space: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    background-color: #cff4f4;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.body-basket img {
+    height: 20rem;
+}
+
+.button-cart-shop button {
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #bdc3fe;
+    transition: all ease-in 0.1s;
+}
+
+.button-cart-shop button:hover {
+    padding: 0.5rem 2.5rem;
+    transition: all ease-in 0.1s;
+    background: #6f91ff;
+    box-shadow: 0px 0px 7px #888888;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+@media only screen and (max-width: 777px) {
+    .body-basket img {
+        height: 13rem ;
+    }
+    .button-cart-shop button {
+        padding: 0.5rem 1.5rem;
+    }
+    .body-basket h5 {
+        font-size: 1rem;
+    }
+}

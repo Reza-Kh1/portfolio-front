@@ -1,0 +1,134 @@
+.body-dark .card-estates {
+    background: linear-gradient(to top, rgba(38, 53, 61, 1), rgb(162, 181, 205));
+    box-shadow: 1px 1px 4px 1px rgb(103, 108, 113);
+}
+
+.body-dark .notif-cart-estate {
+    color: rgba(38, 53, 61, 1);
+}
+
+.body-dark .for-buy::after {
+    border-left: 15px solid rgb(162, 181, 205) !important;
+}
+
+.body-dark .for-buy {
+    background-color: rgb(162, 181, 205);
+}
+
+.body-light .card-estates {
+    background: linear-gradient(to top,    rgb(85, 133, 181),   rgb(241, 212, 212));
+    box-shadow: 1px 1px 4px 1px  rgb(72, 76, 127);
+}
+
+.body-light .notif-cart-estate {
+    color: rgb(30,43,79);
+}
+
+.body-light .for-buy::after {
+    border-left: 15px solid  rgb(221, 182, 198) !important;
+}
+
+.body-light .for-buy {
+    background-color:  rgb(221, 182, 198);
+}
+
+.card-estates {
+    padding: 15px 15px 10px 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.img-estates img {
+    border-radius: 15px;
+    border: 2px solid #000;
+    object-fit: cover;
+    position: center center;
+    height: 16rem;
+}
+
+.card-estates-descaption p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.card-estates-descaption span {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.card-estates-descaption:last-child span {
+    display: block;
+}
+
+.card-estates-descaption {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.desc-box-estate {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.profile-box-estate img {
+    border-radius: 50%;
+    width: 60px !important;
+    height: 4rem;
+}
+
+.profile-box-estate {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.share-box-estate {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    margin-left: 5px;
+}
+
+.share-box-estate i {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.notif-cart-estate {
+    position: absolute;
+    border-radius: 3px 7px 10px 3px;
+    font-size: 1.1rem;
+    right: -16px;
+    padding: 5px 15px;
+    top: 22px;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 2px 1px #939a9e;
+    z-index: 7;
+    background-color:   rgb(146 154 255);
+}
+
+.for-buy::after {
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+
+.notif-cart-estate::after {
+    z-index: -1;
+    position: absolute;
+    content: '';
+    top: -12px;
+    right: -14px;
+    height: 20px;
+    width: 20px;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-left: 15px solid  rgb(146 154 255);
+}

@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "name": "reza",
+            "last": "rsaddd",
+            "gmail": "reza@gmail.com"
+        },{
+            "id": 2,
+            "name": "ali",
+            "last": "saddd",
+            "gmail": "ali@gmail.com"
+        },{
+            "id":3,
+            "name": "akbar",
+            "last": "aksaddd",
+            "gmail": "akbar@gmail.com"
+        },{
+            "id":4,
+            "name": "bahram",
+            "last": "bahsaddd",
+            "gmail": "bahram@gmail.com"
+        },{
+            "id": 5,
+            "name": "mona",
+            "last": "msaddd",
+            "gmail": "mona@gmail.com"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

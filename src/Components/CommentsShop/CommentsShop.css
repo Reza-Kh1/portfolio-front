@@ -1,0 +1,70 @@
+.body-dark .comment-question{
+    box-shadow: 0px 0px 5px  rgb(15, 76, 117);
+    border: 1px solid rgb(178,215,210);
+}
+.body-dark .comment-box-shop .buttons-commonet-shop button {
+    background: rgb(162,181,205);
+}
+
+.body-light .comment-question {
+    box-shadow: 0px 0px 5px rgb(167 197 189);
+    border: 1px solid rgb(187 228 233);
+}
+
+.body-light .comment-box-shop .buttons-commonet-shop button {
+    background: rgb(187 228 233);
+}
+.comment-question h5 {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.comment-question {
+    line-height: 1.9;
+    border-radius: 0.3rem;
+    padding: 1rem 0.8rem;
+}
+
+.comment-box-shop .buttons-commonet-shop button {
+    text-align: left;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1rem;
+    box-shadow: 0px 0px 6px #a6a3a3;
+    margin-top: 1rem;
+}
+
+.comment-box-shop .buttons-commonet-shop {
+    text-align: left;
+}
+
+.comment-box-shop .new-comment-shop {
+    margin-top: 2rem;
+    padding: 1rem 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 0.4rem;
+}
+
+.comment-box-shop .new-comment-shop .buttons-commonet-shop {
+    text-align: right;
+}
+
+.comment-box-shop .select-user {
+    padding: 3px 25px;
+    box-shadow: 0px 0px 4px 1px #777676;
+    background: none;
+    color: #1d97c0;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.comment-box-shop .new-comment-shop .input-comment {
+    color: #383a3b;
+    width: 100%;
+    box-shadow: 0px 0px 5px #ddd;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #979393;
+    padding: 0.5rem 0.5rem;
+}

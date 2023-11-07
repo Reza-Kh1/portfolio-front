@@ -1,0 +1,20 @@
+.user-input {
+    margin-bottom: 0.8rem;
+    padding: 8px 5px !important;
+    border: none;
+    background-color: rgb(0 0 0 / 18%) !important;
+    color: #dbdbdb !important;
+    border-radius: 0.3rem;
+    width: 100%;
+    box-shadow: 0px 0px 2px #0c166b;
+    margin-top: 0.6rem;
+}
+
+.change-pas{
+    display: block;
+    border-top: 1px solid #ddd;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    margin-top: 3rem;
+}

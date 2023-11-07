@@ -1,0 +1,12 @@
+.get-out {
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: rgba(85, 85, 85, 0);
+    box-shadow: 1px 1px 20px 0px #787474;
+    margin-right: 25px;
+    transition: all ease 0.3s;
+}
+.get-out:hover{
+    background-color: rgb(85, 85, 85);
+    transition: all ease 0.3s;
+}

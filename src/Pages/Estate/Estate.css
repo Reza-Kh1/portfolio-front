@@ -1,0 +1,115 @@
+.body-dark .filters{
+    background: linear-gradient(45deg, rgb(58,79,94),  rgb(50, 130, 184));
+    box-shadow: -1px 1px 5px 0px rgb(50, 130, 184);
+}
+.body-light .filters{
+    background: linear-gradient(45deg,   rgb(83, 168, 182),   rgb(187, 228, 233));
+    box-shadow: -1px 1px 5px 0px  rgb(85, 133, 181);
+}
+.estate-top {
+    background-image: url("/img/artist3-slider-glow.jpg");
+    height: 90vh;
+    position: relative;
+}
+
+.estate-top figure {
+    position: absolute;
+    left: 10%;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+.estate-top figure img {
+    height: 40rem;
+}
+
+.estate-top figcaption {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    left: 43%;
+}
+
+.estate-top figcaption h3 {
+    color: #c1c1c1 !important;
+}
+
+.color-estate {
+    color: #d9d9d9 !important;
+}
+
+.estate-top figcaption .emza {
+    height: 4rem;
+    object-fit: contain;
+}
+
+.filters {
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.select-estate {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 10rem;
+}
+
+.select-estate:hover {
+    box-shadow: 0px 0px 4px #37b9f6;
+}
+
+@media only screen and (max-width: 777px) {
+    .estate-top figcaption {
+        right: 10%;
+        left: 10%;
+        bottom: 2%;
+    }
+
+    .estate-top {
+        height: 65vh;
+    }
+
+    .estate-top figure img {
+        height: 27rem;
+    }
+
+    .image-gallery-slide .image-gallery-image {
+        height: 20rem;
+    }
+
+    .select-estate {
+        width: 8rem;
+    }
+
+    .filter-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pagination-button button {
+        padding: 0.5rem 1.1rem;
+    }
+
+    .pagination-button button svg {
+        font-size: 13px;
+    }
+
+    .menu-top {
+        margin-bottom: 85px;
+    }
+
+    .share-box-estate i {
+        font-size: 1rem !important;
+    }
+
+    .profile-box-estate span {
+        font-size: 10px;
+    }
+
+}
